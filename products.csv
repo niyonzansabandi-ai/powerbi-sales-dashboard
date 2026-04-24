@@ -1,0 +1,51 @@
+product_id,product_name,category,unit_price
+P001,Wireless Mouse,Electronics,24.99
+P002,Mechanical Keyboard,Electronics,79.99
+P003,USB-C Cable,Electronics,9.99
+P004,Laptop Stand,Electronics,34.99
+P005,Noise Cancelling Headphones,Electronics,129.99
+P006,Smartwatch,Electronics,199.99
+P007,Portable Charger,Electronics,29.99
+P008,Bluetooth Speaker,Electronics,49.99
+P009,Webcam HD,Electronics,39.99
+P010,LED Desk Lamp,Home Office,22.99
+P011,Office Chair,Home Office,149.99
+P012,Standing Desk,Home Office,299.99
+P013,Notebook Pack,Office Supplies,5.99
+P014,Gel Pens Set,Office Supplies,7.99
+P015,Highlighters Pack,Office Supplies,6.49
+P016,Printer Paper 500ct,Office Supplies,8.99
+P017,Stapler,Office Supplies,12.99
+P018,Desk Organizer,Home Office,18.99
+P019,Monitor 24in,Electronics,129.99
+P020,Monitor 27in,Electronics,189.99
+P021,Backpack,Accessories,39.99
+P022,Water Bottle,Accessories,14.99
+P023,Wireless Earbuds,Electronics,59.99
+P024,Smartphone Case,Accessories,12.99
+P025,HDMI Cable,Electronics,11.99
+P026,External Hard Drive 1TB,Electronics,59.99
+P027,External SSD 500GB,Electronics,89.99
+P028,Keyboard Wrist Rest,Home Office,14.99
+P029,Mouse Pad,Home Office,9.99
+P030,Desk Mat,Home Office,19.99
+P031,Router Dual Band,Electronics,79.99
+P032,WiFi Range Extender,Electronics,39.99
+P033,Smart LED Bulb,Home,12.99
+P034,Electric Kettle,Home,29.99
+P035,Air Fryer,Home,89.99
+P036,Blender,Home,49.99
+P037,Coffee Maker,Home,59.99
+P038,Toaster,Home,24.99
+P039,Vacuum Cleaner,Home,129.99
+P040,Space Heater,Home,39.99
+P041,Fitness Tracker,Fitness,49.99
+P042,Yoga Mat,Fitness,19.99
+P043,Dumbbells Set,Fitness,39.99
+P044,Resistance Bands,Fitness,14.99
+P045,Treadmill,Fitness,499.99
+P046,Jump Rope,Fitness,9.99
+P047,Protein Powder,Fitness,29.99
+P048,Shaker Bottle,Fitness,8.99
+P049,Gym Bag,Fitness,24.99
+P050,Massage Gun,Fitness,89.99
