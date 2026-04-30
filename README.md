@@ -1,50 +1,100 @@
-# Power BI Sales Dashboard — Retail Performance Insights
+# Retail Sales Dashboard — Power BI Project
 
-A fully interactive Power BI dashboard analyzing retail sales performance across products, regions, and time periods. Designed to help business stakeholders identify trends, optimize inventory, and improve revenue forecasting.
+## Overview
+This project is an interactive Power BI dashboard designed to analyze retail sales performance across products, regions, and time. It provides a clear view of business trends through KPIs, time‑series analysis, and category breakdowns. The goal is to help stakeholders quickly understand sales performance, customer behavior, and product trends.
 
----
+## Business Problem
+Retail managers need a simple, visual way to answer key questions:
+- How much revenue are we generating?
+- Which products drive the most sales?
+- Which regions perform best?
+- How do sales trend over time?
+- Are we gaining or losing customers?
 
-## 📊 Key Features
-- Interactive sales trends by month, quarter, and year  
-- Top‑performing products and categories  
-- Regional performance heatmaps  
-- Dynamic filters for product, region, and date  
-- Clean, business‑ready visual design  
+This dashboard solves that by turning raw CSV data into actionable insights.
 
----
+## Dataset Description
+The dataset includes:
+- Sales transactions
+- Product information
+- Customer data
+- Dates and time periods
 
-## 📁 Project Structure
-data/                → Raw sales dataset  
-dashboard/           → Power BI (.pbix) file  
-images/              → Dashboard screenshots  
-README.md            → Documentation  
+Key fields used:
+- OrderDate
+- Product
+- Region
+- Quantity
+- Sales
+- CustomerID
 
----
+## Data Model
+A simple, clean star‑style model:
 
-## 🧠 Business Questions Answered
-- Which products generate the most revenue  
-- Which regions underperform and why  
-- How sales change over time  
-- What seasonal patterns exist  
-- Which categories drive growth  
+- **Fact Table:** Sales  
+- **Dimension Tables:** Products, Customers, Calendar  
 
----
+Relationships were created on Product, CustomerID, and Date to ensure accurate filtering and time‑intelligence calculations.
 
-## 🖼 Dashboard Preview
-(Upload your screenshots into `/images` and reference them here)
+## DAX Measures
 
-![Dashboard Overview](images/dashboard_overview.png)
+```DAX
+Total Sales = SUM('Sales'[Sales])
 
----
+Total Quantity = SUM('Sales'[Quantity])
 
-## 🚀 Tools Used
-- Power BI  
+Total Customers = DISTINCTCOUNT('Sales'[CustomerID])
+
+Total Products Sold = DISTINCTCOUNT('Sales'[Product])
+```
+
+## Dashboard Visuals
+The dashboard includes:
+
+### Top KPIs
+- Total Sales  
+- Total Customers  
+- Total Quantity  
+
+### Trend Visual
+- Sales YTD by Date (line chart)
+
+### Category and Regional Insights
+- Top Products by Sales  
+- Sales by Region  
+- Total Sales by Month  
+
+## Key Insights
+- Sales show clear seasonal patterns across months  
+- A small set of products drive the majority of revenue  
+- Regional performance varies significantly  
+- Customer volume and quantity sold align with revenue trends  
+
+## Tools Used
+- Power BI Desktop  
 - DAX  
-- Power Query  
 - Data Modeling  
-- Data Cleaning  
+- CSV Data Processing  
 
----
+## Dashboard Screenshot
+(Insert your screenshot after uploading to GitHub)
 
-## 🌐 Portfolio Link
-https://niyonzansabandi-ai.github.io/portfolio-site-/
+Example:
+```markdown
+![Retail Sales Dashboard](images/dashboard.png)
+```
+
+## How to Open the PBIX
+1. Download the `.pbix` file from this repository  
+2. Open it in **Power BI Desktop**  
+3. Interact with slicers and visuals to explore insights  
+
+## Project Summary
+This project demonstrates:
+- Data cleaning  
+- Data modeling  
+- DAX measure creation  
+- Dashboard design  
+- Insight communication  
+
+It is designed as a portfolio‑ready Power BI project showcasing analytical and visualization skills.
