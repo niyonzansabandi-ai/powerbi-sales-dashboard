@@ -1,0 +1,13 @@
+region_id,region,subregion
+R01,North,Northwest
+R01,North,North Central
+R01,North,Northeast
+R02,South,Southeast
+R02,South,South Central
+R02,South,Southwest
+R03,East,Upper East
+R03,East,Mid East
+R03,East,Lower East
+R04,West,Pacific
+R04,West,Mountain
+R04,West,Desert
