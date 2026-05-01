@@ -77,12 +77,10 @@ The dashboard includes:
 - CSV Data Processing  
 
 ## Dashboard Screenshot
-(Insert your screenshot after uploading to GitHub)
-
-Example:
-```markdown
 ![Retail Sales Dashboard](images/dashboard.png)
-```
+
+## Download the PBIX File
+[Download PBIX](dashboard/retail_sales_dashboard.pbix)
 
 ## How to Open the PBIX
 1. Download the `.pbix` file from this repository  
