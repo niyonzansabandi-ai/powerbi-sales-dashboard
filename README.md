@@ -95,4 +95,26 @@ This project demonstrates:
 - Dashboard design  
 - Insight communication  
 
+## Project Highlights
+- Built a clean star-schema data model for accurate filtering and time intelligence.
+- Designed intuitive visuals that highlight KPIs, trends, and category performance.
+- Created reusable DAX measures for sales, customers, and product insights.
+- Identified seasonal sales patterns and top-performing regions.
+- Delivered a dashboard that supports quick decision-making for retail stakeholders.
+
+## Skills Demonstrated
+- Power BI Desktop (data modeling, visualization, report design)
+- DAX (measures, time intelligence, calculated fields)
+- Data cleaning and transformation
+- Star-schema modeling and relationship management
+- KPI development and insight communication
+- Dashboard layout and UX best practices
+
+## Future Improvements
+- Add drill-through pages for product-level and region-level deep dives.
+- Incorporate forecasting using Power BI’s built-in analytics tools.
+- Add a customer segmentation visual using RFM or clustering.
+- Automate data refresh using Power BI Gateway.
+- Expand dataset with inventory or marketing data for richer insights.
+
 It is designed as a portfolio‑ready Power BI project showcasing analytical and visualization skills.
